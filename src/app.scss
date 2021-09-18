@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+    &:hover{
+        color: black;
+    }
+}
+.App{
+    display: flex;
+    background:#EBF2F7;
+    .main-content-area{
+        flex: 1;
+    }
+}
+.darkApp{
+    height:100%;
+    width:100%;
+    background:rgb(70, 70, 70);
+    position: absolute;
+    top: 0;left: 0;
+    opacity: .7;
+    z-index: 999;
+}

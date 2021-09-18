@@ -1,0 +1,34 @@
+
+.home{
+    padding: 60px 50px 0 80px;
+    
+    .pagination{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top:50px;
+        .activePage{
+            background: white;
+            color: black;
+            -webkit-box-shadow: 5px 1px 24px 1px rgba(0,0,0,0.16); 
+                box-shadow: 5px 1px 24px 1px rgba(0,0,0,0.16);
+        }
+        button{
+            border: none;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background:#bebebe;
+            color: white;
+            &:hover{
+                -webkit-box-shadow: 5px 1px 24px 1px rgba(0,0,0,0.16); 
+                box-shadow: 5px 1px 24px 1px rgba(0,0,0,0.16);
+            }
+        }
+    }
+}
+

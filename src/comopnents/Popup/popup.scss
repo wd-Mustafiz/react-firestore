@@ -1,0 +1,57 @@
+.popup{
+    width:500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    z-index: 9999;
+    .cancelItem{
+        background:white;
+        border-radius:50%;
+        height:50px;
+        width: 50px;
+        font-size:20px;
+        color: #FCB8B9;
+        display: flex;
+        justify-content: center;align-items: center;
+        margin-left: 20px;
+        cursor: pointer;
+        align-self: flex-end;
+        &:hover{
+            color: red;
+            box-shadow: 5px 1px 24px 1px rgba(0,0,0,0.16);
+        }
+    }
+    
+    .avatar{
+        height:60px;
+        width:60px;
+        border-radius: 50%;
+        background:#54db9e;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        font-size: 22px;
+        color: white;
+        margin: auto;
+    }
+    .popupText{
+        .popupTitle{
+            font-size: 18px;
+            margin: 16px 0;
+        }
+        .popupDesc{
+            span{
+                font-size: 20px;
+                color: rgb(126, 126, 126);
+            }
+        }
+
+
+    }
+}

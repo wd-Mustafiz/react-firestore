@@ -1,0 +1,108 @@
+.feedback{
+    padding: 50px 0 0 100px;
+    height:100vh;
+    width: 60%;
+    background-color: #EAF1F6;
+    position: absolute;
+    top: 0;
+    left: 330px;
+    border-radius:0 25px 25px 0;
+    -webkit-box-shadow: 41px 1px 50px -4px rgba(137,137,137,0.71); 
+    box-shadow: 41px 1px 50px -4px rgba(137,137,137,0.71);
+    transition: all 0.5s ease-in-out;
+    z-index: 9999999;
+    .feedback-top{
+        margin-bottom: 20px;
+        h4{
+            font-size: 22px;
+            margin-bottom: 0;
+            font-weight: bold;
+        }
+        span{
+            color: black;
+        }
+    }
+    .searchFiled{
+        background: white;
+        margin: 2px 0 8px 0;
+        width: 330px;
+        padding: 0;
+        border-radius:7px;
+        -webkit-box-shadow: 5px 6px 24px 1px rgba(0,0,0,0.16); 
+        box-shadow: 5px 6px 24px 1px rgba(0,0,0,0.16);
+    }
+    .feedbackform{
+        .inputTitle{
+            font-size: 14px;
+            color: black;
+        }
+        .feedbackinput{
+            border: none;
+            padding: 6px 10px;
+            width:300px;
+            border-radius:7px;
+            margin: 2px 0 8px 0;
+            font-size: 14px;
+            color: #686868;
+            -webkit-box-shadow: 5px 6px 24px 1px rgba(0,0,0,0.16); 
+            box-shadow: 5px 6px 24px 1px rgba(0,0,0,0.16);
+            &::placeholder{
+                color: #a8a8a8;
+            }
+            &:focus-visible{
+                border: none;
+                outline: none;
+            }  
+            &.feedBackAddress{
+                width: 600px;
+            }     
+            &.inputSearch{
+                margin: 0;
+                box-shadow:none;
+            } 
+            &.frist2{
+                width: 60px;
+                padding-right: 0;
+                margin-right: 10px;
+            }
+            &.last9{
+                width: 230px
+            }
+        }
+        .messege{
+            margin-left: 50px;
+            color: orangered;
+        }
+        .submitBtn{
+            background: #8FE0C0;
+            color: white;
+            font-weight: bold;
+            border: none;
+            width: 200px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            margin-top: 25px;
+            font-size: 14px;
+            padding: 10px 0;
+            font-weight: bold;
+            border-radius:8px;
+            -webkit-box-shadow: inset -8px 6px 21px -8px rgba(0,0,0,0.16); 
+        box-shadow: inset -8px 6px 21px -8px rgba(0,0,0,0.16);
+        }
+    }
+}
+
+.searchList{
+    list-style-type: none;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    cursor: pointer;
+    padding: 2px 0 2px 5px;
+    background: rgb(238, 238, 238);
+    color: rgb(95, 201, 236);
+
+    &:hover{
+        color:rgb(87, 87, 250);
+        background:rgb(255, 249, 249);
+    }
+}

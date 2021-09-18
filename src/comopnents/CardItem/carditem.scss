@@ -1,0 +1,55 @@
+.postCard{
+    border: none;
+    height:220px;
+    display: flex;
+    background:white;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 8px 6px 21px 8px rgba(0,0,0,0.16); 
+    box-shadow:  8px 6px 21px 8px rgba(0,0,0,0.16);
+    .card-header {
+        -webkit-box-shadow: inset 8px 6px 21px -8px rgba(0,0,0,0.16); 
+        box-shadow: inset 8px 6px 21px -8px rgba(0,0,0,0.16);
+        position: relative;
+        z-index: 880;
+        .cancelItem{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background:white;
+            border-radius:50%;
+            height:40px;
+            width: 40px;
+            font-size:20px;
+            color:#FCB8B9;
+            display: flex;
+            justify-content: center;align-items: center;
+            margin-left: 20px;
+            cursor: pointer;
+            box-shadow: 5px 1px 24px 1px rgba(0,0,0,0.16);
+        &:hover{
+            
+            color: red;
+        }
+        }
+    }
+    .card-title{
+        text-transform: capitalize;
+    }
+    button{
+        width: 160px;
+        margin: 0 0 25px 18px  ;
+        -webkit-box-shadow: inset 8px 6px 21px -8px rgba(0,0,0,0.16); 
+        box-shadow: inset 8px 6px 21px -8px rgba(0,0,0,0.16);
+        background:#70e4b6;
+        color: white;
+        &:focus{
+            box-shadow: none !important;
+        }
+        &:hover{
+            background:teal;
+            color: white;
+        }
+    }
+}
